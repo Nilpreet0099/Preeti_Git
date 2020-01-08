@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite thread-count = "1" verbose = "1" name = "POM_Suite" parallel = "tests">
+<test name = "MMT">
+<classes>
+<class name="MMT.Main_MMT">
+
+</class>
+
+</classes>
+
+
+</test>
+
+<test name="GoIbiBo">
+<classes>
+<class name="GoIbibo.Main_GoIbibo">
+</class>
+
+</classes>
+
+
+</test>
+</suite>
